@@ -20,5 +20,5 @@ footer.bg-gh-dark-subtle.border-t.border-gh-dark-border.py-8.mt-auto
           span.sr-only GitHub
           font-awesome-icon(icon="fa-brands fa-github" class="h-6 w-6")
       
-      p.mt-8.text-base.text-gh-dark-secondary.md_mt-0.md_order-1 &copy; 2023 Contribution Tracker. All rights reserved.
+      p.mt-8.text-base.text-gh-dark-secondary.md_mt-0.md_order-1 &copy; 2023 SocialTrail. All rights reserved.
 </template> 

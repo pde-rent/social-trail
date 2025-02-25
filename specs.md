@@ -1,7 +1,7 @@
-# Contribution Tracker - Application Specifications
+# SocialTrail - Application Specifications
 
 ## Overview
-Contribution Tracker is an application designed to track users' social activity across multiple platforms, allowing them to earn points when engaging with content on X, YouTube, TikTok, Instagram, and other platforms.
+SocialTrail is an application designed to track users' social activity across multiple platforms, allowing them to earn points when engaging with content on X, YouTube, TikTok, Instagram, and other platforms.
 
 ## Architecture
 The application follows a monorepo structure with shared code between frontend and backend.

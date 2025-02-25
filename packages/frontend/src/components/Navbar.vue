@@ -2,7 +2,7 @@
 nav.bg-gray-800.text-white.p-4
   .container.mx-auto.flex.justify-between.items-center
     // Logo/Brand
-    router-link.text-xl.font-bold(to="/") Contribution Tracker
+    router-link.text-xl.font-bold(to="/") SocialTrail
     
     // Navigation Links
     .flex.space-x-4
