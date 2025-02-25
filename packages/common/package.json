@@ -1,0 +1,14 @@
+{
+  "name": "@contribution-tracker/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/bun": "^1.2.3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "contribution-tracker",
+  "version": "1.0.0",
+  "description": "Track users' social activity across multiple platforms",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "bun run --cwd packages/backend dev",
+    "dev:frontend": "bun run --cwd packages/frontend dev",
+    "dev": "bun run dev:backend & bun run dev:frontend",
+    "build": "bun run --cwd packages/common build && bun run --cwd packages/backend build && bun run --cwd packages/frontend build",
+    "start": "bun run --cwd packages/backend start"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

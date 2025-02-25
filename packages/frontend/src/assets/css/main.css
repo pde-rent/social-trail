@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Button styles */
+  .btn-primary {
+    @apply bg-gh-dark-primary text-white rounded-md px-4 py-2 hover_bg-opacity-90 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-gh-dark-hover text-gh-dark-fg border border-gh-dark-border rounded-md px-4 py-2 hover_bg-opacity-90 transition-colors;
+  }
+  
+  /* Card styles */
+  .card {
+    @apply bg-gh-dark-subtle rounded-lg border border-gh-dark-border p-4;
+  }
+  
+  /* Form styles */
+  .form-input {
+    @apply block w-full py-2 px-3 bg-gh-dark-bg border border-gh-dark-border rounded-md focus_outline-none focus_ring-1 focus_ring-gh-dark-primary focus_border-gh-dark-primary text-gh-dark-fg placeholder-gh-dark-muted;
+  }
+  
+  .form-label {
+    @apply block text-sm font-medium text-gh-dark-fg mb-1;
+  }
+  
+  /* Typography */
+  .heading-1 {
+    @apply text-3xl font-bold text-gh-dark-fg;
+  }
+  
+  .heading-2 {
+    @apply text-2xl font-bold text-gh-dark-fg;
+  }
+  
+  .heading-3 {
+    @apply text-xl font-semibold text-gh-dark-fg;
+  }
+  
+  .text-body {
+    @apply text-gh-dark-secondary;
+  }
+  
+  .text-small {
+    @apply text-sm text-gh-dark-muted;
+  }
+}
+
+/* Custom styles for Font Awesome icons */
+.fab, .fas {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SocialTrail logo styling */
+.logo-container {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+/* In dark mode, we want the black logo to appear white */
+.dark .logo-container img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+} 

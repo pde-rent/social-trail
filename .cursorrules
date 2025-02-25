@@ -1,0 +1,38 @@
+# Project Structure
+- Monorepo with packages: frontend, backend, and common
+- Package Management: Bun for package management and back-end runtime
+- Frontend Bundling: Vite
+
+# Vue Project Conventions
+- Template Engine: Use Pug for Vue templates with lang="pug" attribute
+- Styling: Apply Tailwind classes using underscore instead of colon (e.g. md_flex instead of md:flex)
+- State Management: Use Pinia for state management
+
+# Backend Architecture
+- Database: Redis as the sole database
+- Server: Express.js framework
+- Runtime: Bun
+
+# Code Preservation Rules
+1. Comment Handling:
+- Never remove existing comments
+- Preserve comment formatting
+- Only add new comments when explicitly requested
+
+2. Code Modification:
+- Avoid refactoring existing code unless directly related to current task
+- Maintain existing code structure and patterns
+- Keep changes minimal and focused on specific requirements
+
+# Template Syntax Conventions
+- Pug templates must include proper indentation (2 spaces)
+- Use shorthand Tailwind classes with underscores:
+  Good: class="bg_blue-500 hover_bg_blue-700"
+  Bad: class="bg-blue-500 hover:bg-blue-700"
+- Prefer multiline class attributes for readability
+
+# Component Guidelines
+- Follow Vue 3 Composition API patterns
+- Use TypeScript with strict type definitions
+- Keep business logic in composables
+- Prefer script setup syntax

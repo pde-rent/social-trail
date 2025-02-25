@@ -1,0 +1,5 @@
+/* Custom styles that would normally use @apply */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
