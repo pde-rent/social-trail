@@ -92,7 +92,7 @@ import { ref, computed, onMounted } from 'vue';
 import { useAuthStore } from '../stores/auth';
 import { useUserStore } from '../stores/user';
 import { useActivityStore } from '../stores/activity';
-import { SocialPlatform, ActivityType } from '@contribution-tracker/common';
+import { SocialPlatform, ActivityType } from '@social-trail/common';
 import ActivityCard from '../components/ActivityCard.vue';
 
 const authStore = useAuthStore();

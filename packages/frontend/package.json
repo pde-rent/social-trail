@@ -1,5 +1,5 @@
 {
-  "name": "@contribution-tracker/frontend",
+  "name": "@social-trail/frontend",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,7 +8,7 @@
     "clean": "rm -rf node_modules/.vite"
   },
   "dependencies": {
-    "@contribution-tracker/common": "workspace:*",
+    "@social-trail/common": "workspace:*",
     "@tailwindcss/postcss": "^4.0.8",
     "@tailwindcss/vite": "^4.0.8",
     "axios": "^1.7.9",

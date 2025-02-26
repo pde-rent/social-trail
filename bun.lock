@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "contribution-tracker",
+      "name": "social-trail",
       "devDependencies": {
         "@types/bun": "latest",
       },
@@ -11,10 +11,10 @@
       },
     },
     "packages/backend": {
-      "name": "@contribution-tracker/backend",
+      "name": "@social-trail/backend",
       "version": "1.0.0",
       "dependencies": {
-        "@contribution-tracker/common": "workspace:*",
+        "@social-trail/common": "workspace:*",
         "@types/express-session": "^1.18.1",
         "bcrypt": "^5.1.1",
         "cors": "^2.8.5",
@@ -46,7 +46,7 @@
       },
     },
     "packages/common": {
-      "name": "@contribution-tracker/common",
+      "name": "@social-trail/common",
       "version": "1.0.0",
       "devDependencies": {
         "@types/bun": "^1.2.3",
@@ -54,14 +54,14 @@
       },
     },
     "packages/frontend": {
-      "name": "@contribution-tracker/frontend",
+      "name": "@social-trail/frontend",
       "version": "1.0.0",
       "dependencies": {
-        "@contribution-tracker/common": "workspace:*",
         "@fortawesome/fontawesome-svg-core": "^6.4.0",
         "@fortawesome/free-brands-svg-icons": "^6.4.0",
         "@fortawesome/free-solid-svg-icons": "^6.4.0",
         "@fortawesome/vue-fontawesome": "^3.0.3",
+        "@social-trail/common": "workspace:*",
         "@tailwindcss/postcss": "^4.0.8",
         "@tailwindcss/vite": "^4.0.8",
         "axios": "^1.7.9",
@@ -95,12 +95,6 @@
     "@babel/parser": ["@babel/parser@7.26.9", "", { "dependencies": { "@babel/types": "^7.26.9" }, "bin": "./bin/babel-parser.js" }, "sha512-81NWa1njQblgZbQHxWHpxxCzNsa3ZwvFqpUg7P+NNUU6f3UU2jBEg4OlF/J6rl8+PQGh1q6/zWScd001YwcA5A=="],
 
     "@babel/types": ["@babel/types@7.26.9", "", { "dependencies": { "@babel/helper-string-parser": "^7.25.9", "@babel/helper-validator-identifier": "^7.25.9" } }, "sha512-Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw=="],
-
-    "@contribution-tracker/backend": ["@contribution-tracker/backend@workspace:packages/backend"],
-
-    "@contribution-tracker/common": ["@contribution-tracker/common@workspace:packages/common"],
-
-    "@contribution-tracker/frontend": ["@contribution-tracker/frontend@workspace:packages/frontend"],
 
     "@esbuild/aix-ppc64": ["@esbuild/aix-ppc64@0.25.0", "", { "os": "aix", "cpu": "ppc64" }, "sha512-O7vun9Sf8DFjH2UtqK8Ku3LkquL9SZL8OLY1T5NZkA34+wG3OQF7cl4Ql8vdNzM6fzBbYfLaiRLIOZ+2FOCgBQ=="],
 
@@ -233,6 +227,12 @@
     "@rollup/rollup-win32-ia32-msvc": ["@rollup/rollup-win32-ia32-msvc@4.34.8", "", { "os": "win32", "cpu": "ia32" }, "sha512-r3NRQrXkHr4uWy5TOjTpTYojR9XmF0j/RYgKCef+Ag46FWUTltm5ziticv8LdNsDMehjJ543x/+TJAek/xBA2w=="],
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.34.8", "", { "os": "win32", "cpu": "x64" }, "sha512-U0FaE5O1BCpZSeE6gBl3c5ObhePQSfk9vDRToMmTkbhCOgW4jqvtS5LGyQ76L1fH8sM0keRp4uDTsbjiUyjk0g=="],
+
+    "@social-trail/backend": ["@social-trail/backend@workspace:packages/backend"],
+
+    "@social-trail/common": ["@social-trail/common@workspace:packages/common"],
+
+    "@social-trail/frontend": ["@social-trail/frontend@workspace:packages/frontend"],
 
     "@tailwindcss/forms": ["@tailwindcss/forms@0.5.10", "", { "dependencies": { "mini-svg-data-uri": "^1.2.3" }, "peerDependencies": { "tailwindcss": ">=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20 || >= 4.0.0-beta.1" } }, "sha512-utI1ONF6uf/pPNO68kmN1b8rEwNXv3czukalo8VtJH8ksIkZXr3Q3VYudZLkCsDd4Wku120uF02hYK25XGPorw=="],
 

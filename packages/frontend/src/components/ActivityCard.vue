@@ -20,8 +20,8 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import { type Activity, ActivityType, SocialPlatform } from '@contribution-tracker/common';
-import { formatDate } from '@contribution-tracker/common';
+import { type Activity, ActivityType, SocialPlatform } from '@social-trail/common';
+import { formatDate } from '@social-trail/common';
 
 const props = defineProps<{
   activity: Activity;

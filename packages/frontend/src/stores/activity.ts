@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import axios from 'axios';
-import { type Activity, ActivityType, SocialPlatform } from '@contribution-tracker/common';
+import { type Activity, ActivityType, SocialPlatform } from '@social-trail/common';
 
 interface ActivityState {
   activities: Activity[];

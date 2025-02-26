@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
 import redisClient from '../db/redis';
 import config from '../config/env';
-import { User, UserRole } from '@contribution-tracker/common';
+import { User, UserRole } from '@social-trail/common';
 import { getUserByEmail, createUser } from './userService';
 
 export const hashPassword = async (password: string): Promise<string> => {

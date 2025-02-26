@@ -1,6 +1,6 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { authenticate } from '../middleware/auth';
-import { SocialPlatform } from '@contribution-tracker/common';
+import { SocialPlatform } from '@social-trail/common';
 import { linkSocialAccount } from '../services/oauthService';
 import config from '../config/env';
 

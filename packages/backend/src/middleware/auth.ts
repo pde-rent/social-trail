@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 import config from '../config/env';
-import { UserRole } from '@contribution-tracker/common';
+import { UserRole } from '@social-trail/common';
 
 interface AuthRequest extends Request {
   user?: {

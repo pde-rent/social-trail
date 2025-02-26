@@ -58,7 +58,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { useUserStore } from '../stores/user';
-import { UserRole, formatDate } from '@contribution-tracker/common';
+import { UserRole, formatDate } from '@social-trail/common';
 import axios from 'axios';
 
 const userStore = useUserStore();

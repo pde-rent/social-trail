@@ -126,7 +126,7 @@ Required environment variables:
 - Signature verification for sensitive operations
 
 ## Repository Structure
-contribution-tracker/
+social-trail/
 ├── package.json
 └── packages/
    ├── common/

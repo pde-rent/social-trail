@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import axios from 'axios';
-import { type User, UserRole } from '@contribution-tracker/common';
+import { type User, UserRole } from '@social-trail/common';
 import router from '../router';
 
 interface AuthState {

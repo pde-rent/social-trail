@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import redisClient from '../db/redis';
-import { User, UserProfile, UserRole, SocialPlatform } from '@contribution-tracker/common';
+import { User, UserProfile, UserRole, SocialPlatform } from '@social-trail/common';
 import bcrypt from 'bcrypt';
 
 interface OAuthUserData {

@@ -1,5 +1,5 @@
 {
-  "name": "@contribution-tracker/backend",
+  "name": "@social-trail/backend",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "bun dist/index.js"
   },
   "dependencies": {
-    "@contribution-tracker/common": "workspace:*",
+    "@social-trail/common": "workspace:*",
     "@types/express-session": "^1.18.1",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",

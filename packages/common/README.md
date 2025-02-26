@@ -1,4 +1,4 @@
-# @contribution-tracker/common
+# @social-trail/common
 
 To install dependencies:
 

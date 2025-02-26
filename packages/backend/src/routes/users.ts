@@ -8,7 +8,7 @@ import {
   getLeaderboard,
   updateUser
 } from '../services/userService';
-import { SocialPlatform, UserRole } from '@contribution-tracker/common';
+import { SocialPlatform, UserRole } from '@social-trail/common';
 
 const router = Router();
 

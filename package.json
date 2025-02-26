@@ -1,5 +1,5 @@
 {
-  "name": "contribution-tracker",
+  "name": "social-trail",
   "version": "1.0.0",
   "description": "Track users' social activity across multiple platforms",
   "main": "index.js",
@@ -7,8 +7,13 @@
     "dev:backend": "bun run --cwd packages/backend dev",
     "dev:frontend": "bun run --cwd packages/frontend dev",
     "dev": "bun run dev:backend & bun run dev:frontend",
+    "build:common": "bun run --cwd packages/common build",
     "build": "bun run --cwd packages/common build && bun run --cwd packages/backend build && bun run --cwd packages/frontend build",
-    "start": "bun run --cwd packages/backend start"
+    "start": "bun run --cwd packages/backend start",
+    "install:common": "bun install --cwd packages/common",
+    "install:backend": "bun install --cwd packages/backend",
+    "install:frontend": "bun install --cwd packages/frontend",
+    "install:all": "bun install && bun install --cwd packages/common && bun install --cwd packages/backend && bun install --cwd packages/frontend"
   },
   "workspaces": [
     "packages/*"
@@ -21,5 +26,7 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
   }
 }

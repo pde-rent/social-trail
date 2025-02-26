@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import redisClient from '../db/redis';
-import { type Activity, ActivityType, SocialPlatform, calculatePoints } from '@contribution-tracker/common';
+import { type Activity, ActivityType, SocialPlatform, calculatePoints } from '@social-trail/common';
 import { getUserById, updateUser } from './userService';
 
 export const recordActivity = async (

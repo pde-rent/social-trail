@@ -1,5 +1,5 @@
 import redisClient from '../db/redis';
-import { SocialPlatform, OAuthToken } from '@contribution-tracker/common';
+import { SocialPlatform, OAuthToken } from '@social-trail/common';
 import { linkSocialHandle } from './userService';
 
 export const storeOAuthToken = async (

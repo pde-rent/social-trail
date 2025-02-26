@@ -5,7 +5,7 @@ import {
   getUserActivities, 
   verifyActivity 
 } from '../services/activityService';
-import { ActivityType, SocialPlatform, UserRole } from '@contribution-tracker/common';
+import { ActivityType, SocialPlatform, UserRole } from '@social-trail/common';
 
 const router = Router();
 

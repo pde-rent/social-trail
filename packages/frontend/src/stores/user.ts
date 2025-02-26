@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import axios from 'axios';
-import { type User } from '@contribution-tracker/common';
+import { type User } from '@social-trail/common';
 
 interface UserState {
   leaderboard: User[];

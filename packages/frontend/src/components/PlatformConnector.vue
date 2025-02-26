@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import { SocialPlatform } from '@contribution-tracker/common';
+import { SocialPlatform } from '@social-trail/common';
 
 const props = defineProps<{
   platform: SocialPlatform;

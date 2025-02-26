@@ -17,7 +17,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
 import { useAuthStore } from '../stores/auth';
-import { SocialPlatform } from '@contribution-tracker/common';
+import { SocialPlatform } from '@social-trail/common';
 import PlatformConnector from '../components/PlatformConnector.vue';
 import axios from 'axios';
 

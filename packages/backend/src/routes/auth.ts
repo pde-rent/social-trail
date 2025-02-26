@@ -10,7 +10,7 @@ import jwt from 'jsonwebtoken';
 import { userService } from '../services/userService';
 import { config } from '../config';
 import session from 'express-session';
-import { User, UserRole } from '@contribution-tracker/common';
+import { User, UserRole } from '@social-trail/common';
 
 const router = Router();
 
